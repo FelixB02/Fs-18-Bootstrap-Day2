@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Advanced-Bootstrap-Day2.html">Star Wars: Revenge of the Sith</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Plot.html">Plot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Actors.html">Actors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row ">
+            <div class="nav flex-column nav-pills me-3 col col-2 d-flex justify-content-between" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="height: 70vh;">
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Ewan Mcgregor</button>
+                <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Ian Mcdiarmid</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Natalie Portman</button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Christofer Lee</button>
+            </div>
+            <div class="tab-content col col-8 text-center m-3" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Ewan Mcgregor</h5>
+                                <a href="https://www.imdb.com/name/nm0000191/?ref_=nv_sr_srsg_0" class="btn btn-light btn-outline-dark">View ImDB</a>
+                            </div>
+                            <div class="ratio ratio-1x1">
+                                <img src="https://de.web.img2.acsta.net/pictures/18/01/08/13/51/4841442.jpg" class="card-img-top object-fit-cover pt-3 pb-3" alt="Ewan Mcgregor">
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet commodi architecto alias neque dolorem, ad eum optio iure? Laudantium ut, non inventore maiores, ipsa cum recusandae voluptas laborum explicabo quis quasi. Quis
+                                animi voluptatem deleniti, repellat est ullam perferendis minima quisquam molestiae, tempore sit? Explicabo voluptatibus ad natus eveniet eligendi?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Ian Mcdiarmid</h5>
+                                <a href="https://www.imdb.com/name/nm0001519/?ref_=nv_sr_srsg_6" class="btn btn-light btn-outline-dark">View ImDB</a>
+                            </div>
+                            <div class="ratio ratio-1x1">
+                                <img src="https://i.guim.co.uk/img/media/ddaf393fb3194b1849ef6b2f87b9c712f1828c72/0_448_6720_4032/master/6720.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=c96e63dce93ebec4d69cbd0c87d8c69c" class="card-img-top object-fit-cover pt-3 pb-3"
+                                    alt="Ian Mcdiarmid">
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur, tenetur iusto ratione tempore maiores explicabo quas accusamus! Dolore placeat commodi, vel repellendus porro totam cupiditate non, sed tenetur,
+                                fuga suscipit corporis sequi laborum blanditiis. Perspiciatis eaque molestias aspernatur nulla laborum natus accusamus! Voluptas molestiae aut illo provident quis ab.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Natalie Portman</h5>
+                                <a href="https://www.imdb.com/name/nm0000204/?ref_=nv_sr_srsg_0" class="btn btn-light btn-outline-dark">View ImDB</a>
+                            </div>
+                            <div class="ratio ratio-1x1">
+                                <img src="https://flxt.tmsimg.com/assets/71364_v9_bb.jpg" class="card-img-top object-fit-cover pt-3 pb-3" alt="Natalie Portman">
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odit repellat delectus non. Ipsum ducimus repellat, earum aut quasi sequi voluptas vero magnam itaque fugit eius, minima illum numquam rem, fugiat dicta tenetur
+                                facilis cum consequuntur? Eaque ducimus pariatur illo, at assumenda, delectus dolor quam sapiente omnis quis perferendis! Aut!</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Christofer Lee</h5>
+                                <a href="https://www.imdb.com/name/nm0000489/?ref_=nv_sr_srsg_0" class="btn btn-light btn-outline-dark">View ImDB</a>
+                            </div>
+                            <div class="ratio ratio-1x1">
+                                <img src="https://cdn.britannica.com/96/234396-050-A4958606/Christopher-Lee-Bangkok-International-Film-Festival-Thailand-February-20-2006.jpg" class="card-img-top object-fit-cover pt-3 pb-3" alt="Christofer Lee">
+                            </div>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eligendi tenetur laboriosam debitis aspernatur dignissimos quis hic dolor cupiditate similique, nobis consectetur consequatur laudantium, nulla nam doloremque
+                                magni, obcaecati nemo aut minus minima quidem. Necessitatibus perferendis facere alias dolor possimus quod labore sapiente, fuga beatae obcaecati, porro aspernatur aut vero.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
